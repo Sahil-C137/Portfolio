@@ -1,0 +1,85 @@
+@import './navigation';
+@import './_intro';
+@import './project-cards';
+@import './testimonial';
+@import './stars';
+
+
+:root {
+    font-size: 16px;
+     font-family: var(--ff-primary);
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --transition-speed: 600ms;
+  }
+  
+  body {
+    color: #ffffff;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
+    padding: 100px 0 0 0;
+  
+  }
+  
+  body::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #1e1e24;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #6649b8;
+  }
+  
+  main {
+    margin-left: 5rem;
+    padding: 0 10%;
+    display: grid;
+    gap: 10rem;
+    justify-items: center;
+    
+  }
+
+  /* Box sizing rules */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Remove default margin */
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  figure,
+  blockquote,
+  dl,
+  dd {
+    margin: 0;
+  }
+  
+  /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+  ul[role="list"],
+  ol[role="list"] {
+    list-style: none;
+  }
+  
+  /* Set core root defaults */
+  html:focus-within {
+    scroll-behavior: smooth;
+  }
+  
+  /* Set core body defaults */
+
+  /* A elements that don't have a class get default styles */
+  a:not([class]) {
+    text-decoration-skip-ink: auto;
+  }
+  
+  
